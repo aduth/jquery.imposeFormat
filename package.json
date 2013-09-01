@@ -1,0 +1,25 @@
+{
+  "name": "jquery.imposeFormat",
+  "version": "1.0.0",
+  "description": "Unobtrusively impose a consistent format on form inputs",
+  "keywords": [
+    "form",
+    "format",
+    "jquery"
+  ],
+  "author": {
+    "name": "Andrew Duthie",
+    "email": "andrew@andrewduthie.com",
+    "website": "http://www.andrewduthie.com/"
+  },
+  "repository": "https://github.com/aduth/jquery.imposeFormat",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-uglify": "~0.2.2",
+    "grunt-jquerymanifest": "~0.1.3",
+    "grunt-mocha": "~0.4.1",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-jshint": "~0.6.4"
+  }
+}

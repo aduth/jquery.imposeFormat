@@ -1,0 +1,25 @@
+{
+  "name": "jquery.imposeFormat",
+  "version": "1.0.0",
+  "title": "jquery.imposeFormat",
+  "author": {
+    "name": "Andrew Duthie",
+    "email": "andrew@andrewduthie.com",
+    "website": "http://www.andrewduthie.com/"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "dependencies": {
+    "jquery": "*"
+  },
+  "description": "Unobtrusively impose a consistent format on form inputs",
+  "keywords": [
+    "form",
+    "format",
+    "jquery"
+  ]
+}
