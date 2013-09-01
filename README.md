@@ -14,6 +14,7 @@ Add `data-impose` attribute to each input field or specify a type when calling i
 
 ```html
 <input id="myTime" type="text" data-impose="time">
+<script>
 $(document).ready(function() {
   $('#myTime').imposeFormat();
   // OR: $('#myTime').imposeFormat({ type: 'time' });
@@ -24,6 +25,7 @@ $(document).ready(function() {
   //       }
   //     });
 });
+</script>
 ```
 
 ### With entire form
