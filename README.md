@@ -2,7 +2,7 @@
 
 ImposeFormat is a jQuery plugin which unobtrusively imposes a consistent format on form inputs. Specifically, it can rewrite user inputs for dates, times, phone numbers, or credit card numbers to a consistent format.
 
-[Refer to the test fixtures for simple use cases demonstrating plugin behavior](http://aduth.github.com/jquery.imposeFormat/test/spec/test.imposeFormat.js#L157-L193)
+[Refer to the test fixtures for simple use cases demonstrating plugin behavior](https://github.com/aduth/jquery.imposeFormat/blob/master/test/spec/test.imposeFormat.js#L156-L193)
 
 ## Usage
 
@@ -44,7 +44,7 @@ $(document).ready(function() {
 
 Note that, by default, date and time replacements use North American date standards.
 
-You can create your own search and replace strings either when calling imposeFormat on an individual element (see *Usage* section), or by overriding the default patterns object[[1]](http://aduth.github.com/jquery.imposeFormat/src/jquery.imposeFormat.js#L29-L46).
+You can create your own search and replace strings either when calling imposeFormat on an individual element (see *Usage* section), or by overriding the default patterns object[[1]](https://github.com/aduth/jquery.imposeFormat/blob/master/src/jquery.imposeFormat.js#L29-L46).
 
 The search value is a simple regular expression object. The replacement string is a non-standard custom syntax with the following definition:
 
