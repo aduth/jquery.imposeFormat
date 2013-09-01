@@ -28,6 +28,10 @@ $(document).ready(function() {
 </script>
 ```
 
+In this case, whenever the value of the text field is changed, the date will be rewritten to be delimited with slashes by default (e.g. "12-31-1969" to "12/31/1969"). This accomodates a user entering the date with whichever delimiters they're most comfortable with.
+
+jQuery.imposeFormat is *not* a validation plugin. If the user leaves the field blank or enters a value which does not match the search, imposeFormat *will do nothing*. You should always perform additional server-side validation.
+
 ### With entire form
 
 ```html
