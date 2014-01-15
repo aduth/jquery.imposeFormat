@@ -12,6 +12,9 @@
     "email": "andrew@andrewduthie.com",
     "website": "http://www.andrewduthie.com/"
   },
+  "scripts": {
+    "test": "node -e \"require('grunt').tasks('test');\""
+  },
   "repository": "https://github.com/aduth/jquery.imposeFormat",
   "license": "MIT",
   "devDependencies": {
